@@ -2,7 +2,7 @@
 
 0) Установить [python](https://www.python.org/downloads/)
 1) Создайте папку с проектом (название папки любое, например FastApi)
-2) Откройте папку в VSCode `File` -> `Open File...` или сочетанием клавиш `Ctrl + O`
+2) Откройте папку в VSCode `File` -> `Open Folder...`
 3) Внутри папки создайте два файла:
     - main.py
        ```
