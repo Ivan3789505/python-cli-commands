@@ -2,7 +2,7 @@
 
 0) Установить [python](https://www.python.org/downloads/)
 1) Создайте папку с проектом (название папки любое, например Selenium)
-2) Откройте папку в VSCode `File` -> `Open File...` или сочетанием клавиш `Ctrl + O`
+2) Откройте папку в VSCode `File` -> `Open Folder...`
 3) Внутри папки создайте два файла:
     - main.py (пустой)
     - requirements.txt
@@ -17,4 +17,5 @@
     - `venv/Scripts/activate` - активировать окружение в Bash
     Критерий выполнения: В терминале должно появиться `(venv)`
 7) `pip install -r requirements.txt`
-8) Для запуска скрипта нужно ввести `python main.py`
+8) Пишем наш скрипт в main.py в зависимости от задачи
+9) Для запуска скрипта нужно ввести `python main.py`
