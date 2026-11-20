@@ -1,22 +1,17 @@
 ### GIT. Сохранение в локальном репозитории
-1) `git add .`
-2) `git commit -m 'Первый коммит'`
-2.1) Если локально НЕ авторизованы в git `git config --global user.email 'your@mail.ru'` и `git config --global user.name 'Your Name'`
-3) При успешном сохранении `git log --oneline` покажет созданный коммит
+1) Если гит не инициалиризрован `git init`
+2) `git add .`
+3) `git commit -m 'Первый коммит'`
+4) Если в git локально НЕ авторизованы `git config --global user.email 'your@mail.ru'` и `git config --global user.name 'Your Name'`
+5) При успешном сохранении `git log --oneline` покажет созданный коммит
 
 ### GIT. Отправка в удаленный репозиторий (на чужом компьютере)
-  1) ...
-  5) Создаем токен: Аватрка -> Settings -> Developer settings (левое меню, самый низ) -> Personal access token -> Tokens (classic) -> Generate new token -> Generate new token (classic)
-  6) ...
-   - Если на учебном компьютере то: `git push https:// <token> @ <url> .git  master`
-   - Если на домашнем: `git push origin master -u`
+  1) Создаем токен: Аватрка -> Settings -> Developer settings (левое меню, самый низ) -> Personal access token -> Tokens (classic) -> Generate new token -> Generate new token (classic)
+  2) `git push https:// <token> @ <url> .git  master` (Нужно удалить пробелы, они для наглядности)
 
 ### GIT. Отправка в удаленный репозиторий (на своем компьютере)
-  1) ...
-  5) Создаем токен: Аватрка -> Settings -> Developer settings (левое меню, самый низ) -> Personal access token -> Tokens (classic) -> Generate new token -> Generate new token (classic)
-  6) ...
-   - Если на учебном компьютере то: `git push https:// <token> @ <url> .git  master`
-   - Если на домашнем: `git push origin master -u`
+  1) `git remote add-url <alias-репозитория> <url-ссылка на репозиторий>`
+  2) `git push <alias-репозитория> <url-ссылка на репозиторий> <название-ветки>`
 
 
 ### Справочная информация
@@ -27,8 +22,6 @@
 | Посмотреть ссылки на удаленный репозиторий (origin) | `git remote -v`     |
 | Показывает изменения и их статус                    | `git status`        |
 | Показывает коммиты (Аналог сейвов из игр)           | `git log --oneline` |
-| Проверка установки Python                           | `python --version`  |
-| Проверка установки Pip                              | `pip --version`     |
 
 ### Подготовить сохранение
 
