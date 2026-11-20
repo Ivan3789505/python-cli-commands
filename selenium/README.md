@@ -10,12 +10,12 @@
       selenium==4.*
       ```
 4) Откройте терминал VSCode через `Ctrl + Ё` или другой терминал (например git bash или PowerShell)
-5) Введите команду в терминале `python -m venv venv` для создания виртуального окружения
+5) Введите команду в терминале `python -m venv venv` (или `python3 -m venv venv`) для создания виртуального окружения
    Критерий выполнения: Должна создаться папка `venv`
 6) Активация venv
     - `.\venv\Scripts\Activate.ps1` - активировать окружение в PowerShell
-    - `source venv/Scripts/activate` - активировать окружение в Bash
-    Критерий выполнения: В терминале должно появиться `(venv)`
+    - `source venv/Scripts/activate` - активировать окружение в Bash/Zsh<br>
+Критерий выполнения: В терминале должно появиться `(venv)`
 7) `pip install -r requirements.txt`
 8) Пишем наш скрипт в main.py в зависимости от задачи
 9) Для запуска скрипта нужно ввести `python main.py`
