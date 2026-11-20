@@ -7,7 +7,7 @@
 
 ### GIT. Отправка в удаленный репозиторий (на чужом компьютере)
   1) Создаем токен: Аватрка -> Settings -> Developer settings (левое меню, самый низ) -> Personal access token -> Tokens (classic) -> Generate new token -> Generate new token (classic)
-  2) `git push https:// <token> @ <url> .git  master` (Нужно удалить пробелы, они для наглядности)
+  2) `git push https://<token>@<url>.git  master`
 
 ### GIT. Отправка в удаленный репозиторий (на своем компьютере)
   1) `git remote add-url <alias-репозитория> <url-ссылка на репозиторий>`
