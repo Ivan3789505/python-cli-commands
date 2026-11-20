@@ -1,13 +1,18 @@
 ### GIT. Сохранение в локальном репозитории
-1) Если гит не инициалиризрован `git init`
-2) `git add .`
-3) `git commit -m 'Первый коммит'`
-4) Если в git локально НЕ авторизованы `git config --global user.email 'your@mail.ru'` и `git config --global user.name 'Your Name'`
-5) При успешном сохранении `git log --oneline` покажет созданный коммит
+0) Если гит не инициалиризрован `git init`
+1) Подготовка файлов к сохранению `git add .`
+2) Сохранение `git commit -m '<имя коммита>'`<br>
+Пример: `git commit -m 'init'`
+3) Если НЕ авторизованы в локальном git `git config --global user.email <Электронная почта>` и `git config --global user.name <Имя>`
+Примеры:<br>
+`git config --global user.email 'your@mail.ru'`<br>
+`git config --global user.name 'Your Name'`
+4) При успешном сохранении `git log --oneline` покажет созданный коммит
 
 ### GIT. Отправка в удаленный репозиторий (на чужом компьютере)
-  1) Создаем токен: `Логотип аватарки в верхнем левом углу github.com` -> `Settings` -> `Developer settings (левое меню, самый низ)` -> `Personal access token` -> `Tokens (classic)` -> `Generate new token` -> `Generate new token (classic)`
-  2) `git push https://<token>@<url>.git  master`
+  1) Кликаем по логитпу своего аватара в верхнем правом углу интерфейса github.com
+  2) `Settings` -> `Developer settings (левое меню, самый низ)` -> `Personal access token` -> `Tokens (classic)` -> `Generate new token` -> `Generate new token (classic)`
+  3) `git push https://<token>@<url-репозитория>.git  master`
 
 ### GIT. Отправка в удаленный репозиторий (на своем компьютере)
   1) `git remote add-url <alias-репозитория> <url-ссылка на репозиторий>`
