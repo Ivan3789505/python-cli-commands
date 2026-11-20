@@ -12,7 +12,13 @@
 ### GIT. Отправка в удаленный репозиторий (на чужом компьютере)
   1) Кликаем по логитпу своего аватара в верхнем правом углу интерфейса github.com
   2) `Settings` -> `Developer settings (левое меню, самый низ)` -> `Personal access token` -> `Tokens (classic)` -> `Generate new token` -> `Generate new token (classic)`
-  3) `git push https://<token>@<url-репозитория>.git  master`
+  3) Заполняем `Note`, пишем любое название для токена (например `token`)
+  4) В `Expiration` выбираем `Custom`, должен появится `Select date *`
+  5) В `Select date *` выбираем завтрашний день, чтоб токен жил не больше дня
+  6) В `Select scopes` выбираем `repo` и `workflow`
+  7) Жмем зеленую кнопку внизу `Generate token`
+  8) Копируем получившийся токен в Блокнот (он появляется один раз). Файл блокнота не закрываем и не сохраняем
+  9) В Блокноте формируем ссылку `git push https://<token>@<url-репозитория-без-протокола-https://>.git master`
 
 ### GIT. Отправка в удаленный репозиторий (на своем компьютере)
   1) `git remote add-url <alias-репозитория> <url-ссылка на репозиторий>`
