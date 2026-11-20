@@ -17,4 +17,4 @@
     - `source venv/Scripts/activate` - активировать окружение в **Bash/Zsh**<br>
 Критерий выполнения: _В терминале должно появиться_ `(venv)`
 8) `pip install -r requirements.txt`
-9) Для запуска скрипта нужно ввести `python main.py` (или `python3 -m venv venv` для Mac)
+9) Для запуска скрипта нужно ввести `python main.py` (или `python3 main.py` для Mac)
