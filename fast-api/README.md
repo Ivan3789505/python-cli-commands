@@ -24,7 +24,7 @@
    Критерий выполнения: Должна создаться папка `venv`
 6) Активация venv
     - `.\venv\Scripts\Activate.ps1` - активировать окружение в PowerShell
-    - `source venv/Scripts/activate` - активировать окружение в Bash
+    - `source venv/Scripts/activate` - активировать окружение в Bash/Zsh
     Критерий выполнения: В терминале должно появиться `(venv)`
 7) `pip install -r requirements.txt`
 8) Для запуска проекта нужно ввести `fastapi dev main.py` или `uvicorn main:app --reload`
