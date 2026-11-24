@@ -13,8 +13,9 @@
 5) Введите команду в терминале `python -m venv venv` (или `python3 -m venv venv` для Mac) для создания виртуального окружения<br>
 Критерий выполнения: _Должна создаться папка_ `venv`
 7) Активация venv
-    - `.\venv\Scripts\Activate.ps1` - активировать окружение в **PowerShell**
-    - `source venv/Scripts/activate` - активировать окружение в **Bash/Zsh**<br>
+    - `.\venv\Scripts\Activate.ps1` - активировать окружение в **PowerShell** *(Windows)*
+    - `source venv/Scripts/activate` - активировать окружение в **Bash** *(Windows)*
+    - `source venv/bin/activate` - активировать окружение в **Bash/Zsh** *(Mac/Linux)*<br>
 Критерий выполнения: _В терминале должно появиться_ `(venv)`
 8) `pip install -r requirements.txt`
 9) Для запуска скрипта нужно ввести `python main.py` (или `python3 main.py` для Mac)
