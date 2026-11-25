@@ -27,6 +27,8 @@
     - `source venv/Scripts/activate` - активировать окружение в **Bash (Windows)**
     - `source venv/bin/activate` - активировать окружение в **Bash/Zsh (Mac/Linux)**<br>
 Критерий выполнения: _В терминале должно появиться_ `(venv)`
-8) `pip install -r requirements.txt`
+8) `pip install -r requirements.txt`  - установка библиотек пакетным менеджером pip<br>
+Зеркало Yandex `pip install -r requirements.txt --index-url https://pypi.yandex.ru/simple`<br>
+Зеркало Alibaba `pip install -r requirements.txt --index-url https://mirrors.aliyun.com/pypi/simple/`
 9) Для запуска проекта нужно ввести `fastapi dev main.py` или `uvicorn main:app --reload`
 10) После успешного запуска перейти по ссылке `127.0.0.1:8000` или `localhost:8000`
