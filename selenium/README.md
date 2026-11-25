@@ -17,5 +17,7 @@
     - `source venv/Scripts/activate` - активировать окружение в **Bash** *(Windows)*
     - `source venv/bin/activate` - активировать окружение в **Bash/Zsh** *(Mac/Linux)*<br>
 Критерий выполнения: _В терминале должно появиться_ `(venv)`
-8) `pip install -r requirements.txt`
+8) `pip install -r requirements.txt`  - установка библиотек пакетным менеджером pip<br>
+Зеркало Yandex `pip install -r requirements.txt --index-url https://pypi.yandex.ru/simple`<br>
+Зеркало Alibaba `pip install -r requirements.txt --index-url https://mirrors.aliyun.com/pypi/simple/`
 9) Для запуска скрипта нужно ввести `python main.py` (или `python3 main.py` для Mac)
