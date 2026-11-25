@@ -8,7 +8,9 @@
 2) - `.\venv\Scripts\Activate.ps1` - активировать окружение в PowerShell
    - `source venv/Scripts/activate` - активировать окружение в Bash
 
-3) `pip install -r requirements.txt`  - установка библиотек пакетным менеджером pip
+3) `pip install -r requirements.txt`  - установка библиотек пакетным менеджером pip<br>
+Зеркало Yandex `pip install -r requirements.txt --index-url https://pypi.yandex.ru/simple`<br>
+Зеркало Alibaba `pip install -r requirements.txt --index-url https://mirrors.aliyun.com/pypi/simple/`
 4) - `uvicorn main:app --reload`    - для запуска сервера на FastApi
    - `python main.py`               - для запуска скрипта
 
