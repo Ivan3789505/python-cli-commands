@@ -4,7 +4,7 @@
 - [git](/git)
 - [Конспект Python](/python-cheat-sheet)
 
-#### Ссылки для скачивания
+#### Полезные ссылки
 - https://code.visualstudio.com
 - https://www.python.org/downloads
 - https://git-scm.com/install/windows
