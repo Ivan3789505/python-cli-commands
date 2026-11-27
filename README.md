@@ -1,0 +1,12 @@
+#### Ссылки для скачивания
+- https://code.visualstudio.com
+- https://www.python.org/downloads
+- https://git-scm.com/install/windows
+- https://nodejs.org/en/download
+- https://www.docker.com
+
+#### Разделы репозитория
+- [Конспект Python](/python-cheat-sheet)
+- [fast-api](/fast-api)
+- [selenium](/selenium)
+- [git](/git)
